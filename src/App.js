@@ -1,24 +1,16 @@
-import logo from './logo.svg';
+import { textAlign } from '@material-ui/system';
+import React from 'react'
 import './App.css';
-
+import Grid from './Grid'
+/*
+Author this Project - Meet Gandhi
+*/
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+         <h1 style = { {textAlign: 'center'} }>Image Grid </h1>
+         <Grid />
+   </div>
   );
 }
 
